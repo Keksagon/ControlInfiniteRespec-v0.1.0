@@ -1,0 +1,4 @@
+Source for transparency/reproducibility. The supplied DLL is already compiled.
+The included build.sh was used in a Linux environment with clang 17 + lld-link.
+No runtime C/C++ library is required by the DLL; it imports only Windows APIs
+from KERNEL32.dll.
